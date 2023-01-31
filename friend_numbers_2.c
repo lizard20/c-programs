@@ -27,14 +27,12 @@ int
 main(int argc, char* argv[])
 {
 	int a, b, i, j;
-	printf("Ingrese dos números: ");
+	printf("Enter two numbers: ");
   	scanf("%d%d", &a, &b);
 	
 
 	i = add_proper_divisors(a);
-	j = add_proper_divisors(b);
-
-	if ((i == b) && (j == a))
+	if ((i == b) && ((j = add_proper_divisors(b)) == a))
 	{
 		printf("%d and %d are friends numbers\n", a, b);
 	}
@@ -42,7 +40,7 @@ main(int argc, char* argv[])
 	{
 		printf("%d and %d are NOT friends numbers\n", a, b);
 	}
-	printf("Los divisores propios son:\n");
+	printf("The proper divisors are:\n");
 	printf("%d: ",a);
 	print_proper_divisors(a);
 	printf("%d: ",b);
