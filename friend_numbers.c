@@ -36,9 +36,7 @@ main(int argc, char* argv[])
 	b = atoi(argv[2]);
 
 	i = add_proper_divisors(a);
-	j = add_proper_divisors(b);
-
-	if ((i == b) && (j == a))
+	if ((i == b) && ((j = add_proper_divisors(b)) == a))
 	{
 		printf("%d and %d are friends numbers\n", a, b);
 		print_proper_divisors(a);
