@@ -39,14 +39,17 @@ main(int argc, char* argv[])
 	if ((i == b) && ((j = add_proper_divisors(b)) == a))
 	{
 		printf("%d and %d are friends numbers\n", a, b);
-		print_proper_divisors(a);
-		print_proper_divisors(b);
 	}
 	else
 	{
 		printf("%d and %d are NOT friends numbers\n", a, b);
 	}
-	
+	printf("The proper divisors are:\n");
+	printf("%d: ", a);
+	print_proper_divisors(a);
+	printf("%d: ", b);
+	print_proper_divisors(b);
+
 	return 0;
 }
 
