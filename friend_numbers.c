@@ -14,6 +14,7 @@
   (17296, 18416),
   (63020, 76084),
   (66928, 66992)
+Author: Aldo Núñez
 ** */
 
 #include <stdio.h>
@@ -27,7 +28,7 @@ main(int argc, char* argv[])
 {
 	if (argc < 3)
 	{
-		printf("Usage: ./friends_numbers a b\n");
+		printf("Usage: ./friend_numbers a b\n");
 		return 1;
 	}
 	int a, b, i, j;
