@@ -14,7 +14,7 @@
   (17296, 18416),
   (63020, 76084),
   (66928, 66992)
-Author: Aldo Núñez
+	Author: Aldo Núñez
 ** */
 
 #include <stdio.h>
