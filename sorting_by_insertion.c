@@ -14,7 +14,7 @@ int
 main ()
 {
 	// Testing data
-	//int U[] = {1, 2, 3, 4, 5, 6};
+	//int u[] = {1, 2, 3, 4, 5, 6};
 	int u[] = {6, 5, 4, 3, 2, 1};
 
 	print(u);
