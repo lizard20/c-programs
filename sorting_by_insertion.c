@@ -10,12 +10,17 @@
 void insertion (int*);
 void print (int*);
 
+unsigned N;
+
 int
 main ()
 {
 	// Testing data
 	//int u[] = {1, 2, 3, 4, 5, 6};
 	int u[] = {6, 5, 4, 3, 2, 1};
+
+	// size of the array  u
+	N = sizeof(u)/sizeof(int);
 
 	print(u);
 	printf("-------------------------\n");
@@ -31,7 +36,7 @@ insertion (int* u)
 	static int flag = 0;
 	int x, j = 0;
 
-	for (int i = 1; i < 6; i++)
+	for (int i = 1; i < N; i++)
 	{
 		x = u[i];
 		j = i -1;
@@ -50,7 +55,7 @@ insertion (int* u)
 void 
 print(int* u)
 {
-	for (int i = 0; i < 6; i++)
+	for (int i = 0; i < N; i++)
 	{
 		printf("%d ", u[i]);
 	}
