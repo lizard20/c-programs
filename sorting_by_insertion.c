@@ -36,7 +36,7 @@ insertion (int* u)
 	static int flag = 0;
 	int x, j = 0;
 
-	for (int i = 1; i < N; i++)
+	for (int i = 1; i < N; ++i)
 	{
 		x = u[i];
 		j = i -1;
@@ -55,7 +55,7 @@ insertion (int* u)
 void 
 print(int* u)
 {
-	for (int i = 0; i < N; i++)
+	for (int i = 0; i < N; ++i)
 	{
 		printf("%d ", u[i]);
 	}
