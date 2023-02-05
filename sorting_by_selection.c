@@ -8,8 +8,6 @@
 **	Author: Aldo Núñez
 ** */
 
-
-
 #include <stdio.h>
 
 void selection(int*);
