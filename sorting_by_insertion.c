@@ -1,6 +1,9 @@
 /*
-**	Sorting using the insertion 
+**	Sorting using the insertion
 **	algorithm.
+**	Based on: Fundamental of algorithmics.
+**	G. Brassard and P. Bratley
+**	page 62.
 **
 **	Author: Aldo Núñez
 ** */
@@ -16,7 +19,7 @@ int
 main ()
 {
 	// Testing data
-	//int u[] = {1, 2, 3, 4, 5, 6};
+	//int t[] = {1, 2, 3, 4, 5, 6};
 	int u[] = {6, 5, 4, 3, 2, 1};
 
 	// size of the array  u
@@ -31,25 +34,25 @@ main ()
 }
 
 void
-insertion (int* u)
+insertion (int* t)
 {
 	static int flag = 0;
 	int x, j = 0;
 
 	for (int i = 1; i < N; ++i)
 	{
-		x = u[i];
+		x = t[i];
 		j = i -1;
-		while( (j >= 0) && (x < u[j]))
+		while( (j >= 0) && (x < t[j]))
 		{
-			u[j+1] = u[j];
+			t[j+1] = t[j];
 			j = j - 1;
-			print(u);
+			print(t);
 		}
-		u[j+1] = x;
-		print(u);
+		t[j+1] = x;
 		printf("-------------------------\n");
 	}
+	print(t);
 }
 
 void 
