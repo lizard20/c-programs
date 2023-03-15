@@ -19,6 +19,7 @@
   	(17296, 18416),
   	(63020, 76084),
   	(66928, 66992)
+
 	Author: Aldo Núñez
 ** */
 
@@ -44,11 +45,11 @@ main(int argc, char* argv[])
 	i = add_proper_divisors(a);
 	if ((i == b) && ((j = add_proper_divisors(b)) == a))
 	{
-		printf("%d and %d are friends numbers\n", a, b);
+		printf("%d and %d are friend numbers\n", a, b);
 	}
 	else
 	{
-		printf("%d and %d are NOT friends numbers\n", a, b);
+		printf("%d and %d are NOT friend numbers\n", a, b);
 	}
 	printf("The proper divisors are:\n");
 	printf("%d: ", a);
