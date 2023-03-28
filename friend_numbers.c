@@ -8,6 +8,15 @@
 **	the sum of the proper divisors of each 
 **	is equal to the other number.
 **
+**	Example: 
+**	proper divisors of 220 are:
+**	1 2 4 5 10 11 20 22 44 55 110
+**	The sum is: 284
+**
+**	proper divisors of 284 are:
+**	1 2 4 71 142
+**	The sum is: 220
+**
 ** Friends numbers:
 	(220, 284),
   	(1184, 1210),
