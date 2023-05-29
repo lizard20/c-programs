@@ -2,6 +2,7 @@
 **	Gets the sum of numbers, 
 **	from 1 to n, using the formula:
 **	n*(n+1)/2.
+**
 **	Author: Aldo Núñez
 ** */
 

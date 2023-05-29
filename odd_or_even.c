@@ -1,5 +1,6 @@
 /*
 ** Determines if a number is odd or even
+**
 ** Author: Aldo Núñez
 ** */
 

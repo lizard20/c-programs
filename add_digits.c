@@ -1,6 +1,7 @@
 /*
 ** Add the digits of a given  number:
 ** Example: 325: 3 + 2 + 5 = 10
+**
 ** Author: Aldo Núñez
 ** */
 
