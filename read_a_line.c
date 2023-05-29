@@ -10,7 +10,7 @@
 int
 main()
 {
-    char name[50];
+	char name[50];
 	int id;
 	char temp;
 
@@ -18,11 +18,11 @@ main()
 	scanf("%d", &id);
 	scanf("%c", &temp);
 
-    printf("Enter your name: ");
-    fgets(name, sizeof(name), stdin);
+	printf("Enter your name: ");
+	fgets(name, sizeof(name), stdin);
 
-    printf("Name:      %s", name);
+	printf("Name:      %s", name);
 	printf("Id number: %d\n", id);
 
-    return 0;
+	return 0;
 }

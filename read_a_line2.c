@@ -11,7 +11,7 @@ int
 main() 
 {
 	int id;
-    char name[50];	
+	char name[50];	
 	char temp;
 
 	printf("Enter your id number: ");
@@ -19,12 +19,12 @@ main()
 	scanf("%c", &temp);
 
 	printf("Enter name: ");
-    scanf("%[^\n]", name);
+	scanf("%[^\n]", name);
 
-    printf("Name:      %s\n", name);
+	printf("Name:      %s\n", name);
 	printf("Id number: %d\n", id);
 
 
-    return 0;
+	return 0;
 }
 
