@@ -4,7 +4,12 @@
 **	Based on: Fundamental of algorithmics.
 **	G. Brassard and P. Bratley
 **	page 62.
-**
+**   
+**  The complexity in the worst scenario and 
+**  average scenario is O(n²). 
+**  And, in the best scenario, when the list
+**  is sorted, the complexity is O(n).
+**  
 **	Author: Aldo Núñez
 ** */
 
