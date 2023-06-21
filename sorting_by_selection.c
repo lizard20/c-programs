@@ -5,6 +5,9 @@
 **	G. Brassard and P. Bratley
 **	page 62.
 **
+**  The complexity of this algorithm 
+**  in all scenarios is O(n²). 
+
 **	Author: Aldo Núñez
 ** */
 
@@ -26,11 +29,11 @@ main()
 	// size of the array 
 	N = sizeof(u)/sizeof(int);
 
+	printf("\n*** Sorting by Selection ***\n\n");
 	print(u);
 	printf("-------------------------\n");
 	printf("-------------------------\n");
 	selection(u);
-	print(u);
 
 	return 0;
 }

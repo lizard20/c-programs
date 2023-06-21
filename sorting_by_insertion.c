@@ -30,6 +30,7 @@ main ()
 	// size of the array  u
 	N = sizeof(u)/sizeof(int);
 
+	printf("\n*** Sorting by Insertion ***\n\n");
 	print(u);
 	printf("-------------------------\n");
 	printf("-------------------------\n");
