@@ -26,7 +26,6 @@ union Data
 int
 main()
 {
-	int i;
 	Data d;
 	Data* ptr = &d;
 
@@ -45,11 +44,10 @@ main()
 	printf("0x%0x\n\n", ptr -> a);
 
 	printf("Byte       Address\n");
-	for(i = 0; i < sizeof(ptr -> a); i++)
+	for(int i = 0; i < sizeof(ptr -> a); i++)
 	{
 		printf("0x%0x || %p\n", ptr -> c[i], &(ptr -> c[i]));
 	}
-
 
 	return 0;
 }
