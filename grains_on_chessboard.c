@@ -6,11 +6,11 @@
 ** The first cell has 1 grain, the second
 ** 2 grains, the third 4 grains, the fourth 8 grains
 ** and so on.
-**   cell 	|| grains	|| total grains
+**   cell 	|| grains	||	total grains
 **   ----------------------------
 **     1	||	1		||		1
-**     2	||  2		||		3
-**     3	||  4		||		7
+**     2	||	2		||		3
+**     3	||	4		||		7
 **	   4	||	8		||		15
 **	   5	||	16		||		31
 **	   ............................
