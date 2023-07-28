@@ -1,4 +1,5 @@
-/* Converts a binary number, represented as a string
+/*
+** Converts a binary number, represented as a string
 ** (e.g. '1010101'), to its decimal equivalent.
 **
 ** Given a binary input string, the program 
