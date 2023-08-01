@@ -7,7 +7,7 @@
 ** The program handles invalid inputs.
 ** 
 ** Example: 
-** ./binary2decial 1011
+** ./binary2decimal 1011
 ** 1011 -->  11
 **
 ** Author: Aldo Núñez
