@@ -6,7 +6,9 @@
 ** produces a decimal output. 
 ** The program handles invalid inputs.
 ** 
-** Example: '1011' -> 42
+** Example: 
+** ./binary2decial 1011
+** 1011 -->  11
 **
 ** Author: Aldo Núñez
 */
