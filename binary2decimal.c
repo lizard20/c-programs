@@ -22,13 +22,13 @@ int
 main(int argc, char* argv[])
 {
 /********************* Tests *******************/	
-//  const char* binary_number = "2a!";      //  invalid
-//	const char* binary_number = "001+";     // 	invalid
-//	const char* binary_number = "/001";     // 
-//	const char* binary_number = "0";        // 0 
-//	const char* binary_number = "1";        // 1
-//	const char* binary_number = "1011";     // 11
-//	const char* binary_number = "101010";   // 42
+//  const char* binary_number = "2a!";       //  invalid
+//	const char* binary_number = "001+";      //  invalid
+//	const char* binary_number = "/001";      //  invalid 
+//	const char* binary_number = "0";         //  0 
+//	const char* binary_number = "1";         //  1
+//	const char* binary_number = "1011";      //  11
+//	const char* binary_number = "101010";    //  42
 //	const char* binary_number = "101101110"; // 366
 /*************************************************/
 
