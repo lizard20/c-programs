@@ -8,6 +8,8 @@
 ** "test"    -> 4
 ** "test   " -> 7
 ** "   "     -> 3
+**
+** Author: Aldo Núñez
 ** */
 
 #include <stdio.h>
