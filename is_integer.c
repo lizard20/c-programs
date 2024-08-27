@@ -1,6 +1,6 @@
 /**
-** Checks if an integer number
-** is valid or not
+** Checks if an input
+** is a valid integer number
 **
 ** Examples:
 ** $ ./is_integer 678
