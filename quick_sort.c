@@ -6,7 +6,6 @@
 ** */
 
 #include <stdio.h>
-#include <math.h>
 
 //typedef int DataType; 	// integer numbers
 typedef double DataType;	// floating numbers
