@@ -8,6 +8,6 @@ To remove executable files:
 
     $ make clean
 
-To compile a 'file.c'  in a terminal:
+To compile  'file.c' program  in a terminal:
 
     $ make <file>
