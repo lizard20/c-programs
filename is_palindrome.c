@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 #include <stdbool.h>
+#include <string.h>
 
 bool is_palindrome(const char*);
 
@@ -30,19 +31,14 @@ main(int argc, char* argv[])
 }
 
 bool
-is_palindrome(const char* word)
+is_palindrome(const char* s)
 {
-    size_t size = 0;
+    // string length
+	size_t length = strlen(s);
 
-    // compute the string size
-    while (word[size] != '\0')
+    for (int i = 0; i < length/2; ++i)
     {
-        size++;
-    }
-
-    for (int i = 0; i < size/2; ++i)
-    {
-        if (word[i] != word[size - 1 - i])
+        if (s[i] != s[length - 1 - i])
         {
             return false;
         }
