@@ -8,12 +8,14 @@
 ** "test"    -> 4
 ** "test   " -> 7
 ** "   "     -> 3
+** "this is a test    "  // 8
 **
 ** Author: Aldo Núñez
 ** */
 
 #include <stdio.h>
 #include <string.h>
+#include <stdbool.h>
 #include <ctype.h>
 
 int
@@ -37,7 +39,7 @@ main()
 	size_t length = strlen(str);
 
 
-	// count emptpy spaces
+	// count empty spaces
 	while (str[index])
 	{
 		if (isspace(str[index]))
@@ -65,7 +67,7 @@ main()
 	}
 
 	// counts the no empty spaces after the last empty space
-	while ((isspace(str[index]) == 0) && (index >= 0))
+	while ((isspace(str[index]) == false) && (index >= 0))
 	{
 		count_chars++;
 		index--;
